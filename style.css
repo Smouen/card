@@ -1,0 +1,39 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(https://images.wallpaperscraft.ru/image/single/gory_ozero_pejzazh_142038_1920x1080.jpg) 
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+} 
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    background: rgba(0,0,0,8);
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-radius: 25px;
+    z-index: 2;
+}
+
+.content h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
